@@ -1,8 +1,13 @@
 {
   "name": "yarn_workspace",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:breakfriday/yarn_monorepo.git",
   "author": "breakhappy <break_happy@163.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
