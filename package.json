@@ -4,6 +4,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "start": "yarn start:ice",
+    "start:ice": "yarn workspace @ice/lite-scaffold start"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:breakfriday/yarn_monorepo.git",
